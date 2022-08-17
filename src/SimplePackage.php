@@ -13,6 +13,6 @@ class SimplePackage
 
     public function hello(): string
     {
-        return vsprintf('Hello %s', [$this->name]);
+        return vsprintf('Hello %s!', [$this->name]);
     }
 }
